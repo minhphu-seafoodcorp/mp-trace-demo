@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Truy xuất lô hàng MP-TTB-2025-08-10-001 — Minh Phú (Demo)</title>
+<style>
+  :root { --bg:#0b1220; --card:#131c2e; --fg:#eaf2ff; --muted:#9ab1d1; --accent:#49d39a; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif; background: var(--bg); color: var(--fg); }
+  header { padding: 24px; border-bottom: 1px solid #1d2942; display:flex; gap:12px; align-items:center; }
+  header .badge { background: #11243a; border: 1px solid #1b3557; padding: 6px 10px; border-radius: 999px; font-size: 12px; color: var(--muted); }
+  main { max-width: 980px; margin: 0 auto; padding: 20px; display: grid; gap: 16px; }
+  .card { background: var(--card); border: 1px solid #1f2a44; border-radius: 16px; padding: 18px; }
+  h1 { font-size: 22px; margin: 6px 0 0; }
+  h2 { font-size: 16px; margin: 0 0 10px; color: var(--muted); font-weight: 600; }
+  .kv { display:grid; grid-template-columns: 140px 1fr; gap: 8px 12px; }
+  .kv div:nth-child(odd) { color: var(--muted); }
+  .badges { display:flex; flex-wrap:wrap; gap:8px; }
+  .tag { border:1px solid #2a3c63; padding:6px 10px; border-radius:999px; font-size:12px; color: var(--muted); }
+  .ok { color:#0f6; border-color:#235d43; background: #0a2a1a; }
+  code, pre { background:#0d1728; border:1px solid #1f2a44; border-radius: 10px; padding: 10px; display:block; overflow:auto; }
+  .grid { display:grid; gap:16px; grid-template-columns: repeat(2, minmax(0,1fr)); }
+  @media (max-width: 800px) { .grid, .kv { grid-template-columns: 1fr; } }
+  footer { text-align:center; color:var(--muted); padding: 20px; font-size:12px; }
+</style>
+</head>
+<body>
+  <header>
+    <div class="badge">Demo • Verified on Blockchain</div>
+    <div class="badge">Permissioned (PoA)</div>
+    <div class="badge">Minh Phú Seafood</div>
+  </header>
+  <main>
+    <div class="card">
+      <h1>Tôm tẩm bột Minh Phú (500g)</h1>
+      <div class="kv" style="margin-top:10px;">
+        <div>Mã lô:</div><div><strong>MP-TTB-2025-08-10-001</strong></div>
+        <div>Ngày đóng gói:</div><div>2025-08-10</div>
+        <div>Khối lượng tịnh:</div><div>0,5 kg</div>
+      </div>
+      <div class="badges" style="margin-top:10px;">
+        <span class="tag ok">HACCP</span><span class="tag ok">ASC (vùng nuôi)</span>
+        <span class="tag">-18°C logistics</span>
+        <span class="tag">Trace ID • QR</span>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h2>Nguồn gốc</h2>
+        <div class="kv">
+          <div>Vùng nuôi:</div><div>Vùng nuôi Liên kết Cà Mau – Ao 17</div>
+          <div>Tọa độ:</div><div>9.1521, 105.1965</div>
+          <div>Ngày thả giống:</div><div>2025-05-02</div>
+          <div>Thức ăn:</div><div>ShrimpPro 32%</div>
+          <div>Chế phẩm sinh học:</div><div>ProBio Aqua MP-7</div>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Chế biến</h2>
+        <div class="kv">
+          <div>Nhà máy:</div><div>Nhà máy Minh Phú – Cụm CN Khánh An</div>
+          <div>Ngày thu hoạch:</div><div>2025-08-07</div>
+          <div>Công đoạn:</div><div>Sơ chế → Tẩm bột → Cấp đông IQF → Đóng gói</div>
+          <div>Kiểm định:</div><div>Vi sinh đạt, Cảm quan đạt</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h2>Vận chuyển</h2>
+        <div class="kv">
+          <div>Container:</div><div>MPCU 1234567</div>
+          <div>Tuyến:</div><div>Cà Mau → Cát Lái → Long Beach, CA</div>
+          <div>Nhiệt độ:</div><div>-18°C ±2°C</div>
+          <div>Cảng xuất:</div><div>Cát Lái (VNCLI)</div>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Dấu vết Blockchain</h2>
+        <div class="kv">
+          <div>Mạng:</div><div>Permissioned (PoA)</div>
+          <div>Block #:</div><div>128457</div>
+          <div>Thời gian:</div><div>2025-08-10 14:32:10 +07:00</div>
+        </div>
+        <pre><code>tx_hash: 520044d4cb1b1a10b857cb24e8392a4ea26970586092d6592b6e4574ca874882</code></pre>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Payload ký số (demo)</h2>
+      <pre><code>{
+  "product_name": "Tôm tẩm bột Minh Phú (500g)",
+  "lot_id": "MP-TTB-2025-08-10-001",
+  "pack_date": "2025-08-10",
+  "weight": "0,5 kg",
+  "origin": {
+    "farm": "Vùng nuôi Liên kết Cà Mau – Ao 17",
+    "coords": "9.1521, 105.1965",
+    "seed_date": "2025-05-02",
+    "feed": "ShrimpPro 32%",
+    "bio": "ProBio Aqua MP-7"
+  },
+  "processing": {
+    "plant": "Nhà máy Minh Phú – Cụm CN Khánh An",
+    "harvest": "2025-08-07",
+    "steps": [
+      "Sơ chế",
+      "Tẩm bột",
+      "Cấp đông IQF",
+      "Đóng gói"
+    ],
+    "qc": [
+      "Vi sinh đạt",
+      "Cảm quan đạt"
+    ]
+  },
+  "logistics": {
+    "container": "MPCU 1234567",
+    "route": "Cà Mau → Cát Lái → Long Beach, CA",
+    "temp": "-18°C ±2°C",
+    "export_port": "Cát Lái (VNCLI)"
+  },
+  "certs": [
+    "HACCP",
+    "ASC (vùng nuôi)"
+  ],
+  "block": {
+    "chain": "Permissioned (PoA)",
+    "block_no": 128457,
+    "tx_hash": "520044d4cb1b1a10b857cb24e8392a4ea26970586092d6592b6e4574ca874882",
+    "timestamp": "2025-08-10 14:32:10 +07:00"
+  }
+}</code></pre>
+    </div>
+  </main>
+  <footer>Trang demo tĩnh để minh họa truy xuất nguồn gốc kiểu "blockchain". Có thể lưu &amp; host dưới bất kỳ tên miền nào.</footer>
+</body>
+</html>
